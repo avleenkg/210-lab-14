@@ -21,9 +21,10 @@ class Color {
     void setgreen(int g)      { ghues = g; }
 
     void print() {
+        cout << "------Color hues:------\n";
         cout << setw(15) << "Red hues: " << rhues << endl;
         cout << setw(15) << "Blue hues: " << bhues << endl;
-        cout << setw(15) << "Green hues: " << ghues << endl;
+        cout << setw(15) << "Green hues: " << ghues << endl << endl;;
     }
 };
 
